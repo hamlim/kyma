@@ -1,3 +1,8 @@
 .one-vh {
     min-width: 100vh;
 }
+.logo-left-corner {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
