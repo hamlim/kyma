@@ -12,3 +12,16 @@
         left: 10px;
     }
 }
+
+.push-up {
+    margin-bottom: 5%;
+}
+.contact-input--ma1 {
+    margin-top: 15px;
+}
+.contact-input--mb1 {
+    margin-bottom: 15px;
+}
+.hover-link:hover {
+    cursor: pointer;
+}

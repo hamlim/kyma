@@ -10,34 +10,72 @@
         <meta name="author" content="@immatthamlin">
         <meta name="description" content="KYMA">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./assets/css/skeleton/skeleton.css">
         <link rel="stylesheet" href="./node_modules/tachyons/css/tachyons.min.css">
+        <!-- <link rel="stylesheet" href="./assets/css/skeleton/skeleton.css"> -->
         <link rel="stylesheet" href="./assets/css/base.css">
     </head>
 
     <body class="wi-100 sans-serif">
-        <header style="background-image: url(./assets/images/hot-air-balloon.jpeg); background-position: bottom center;" class="h-100 dt bg-cv">
-            <div class="dtc v-mid  bg-black-10 white-80 tl tc-ns phm">
-                <img class="" src="./assets/images/logo-white-transparent-medium.png"/>
-                <h1 class="f3 f1-m mega-l ttu tracked-mega mbm mtn semibold">KYMA</h1>
-                <h2 class="f4 f3-ns book mbm mtn">International Business Development</h2>
-                <br/>
-                <a href="#about" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam">Learn More</a>
-                <!-- <a href="#" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam">Secondary Call to Action</a> -->
-            </div>
-        </header>
-        <main id="about" class="h-100">
-            <div class="measure center pvl">
-                <h1 class="f4 f2-ns semibold ttu tracked lh-title">Simple full screen panel header</h1>
-
-                <p class="measure lh-copy">Vertically aligns content within the panel which is set to fill height and width of the window.</p>
-                <p class="measure lh-copy">Can be used with a solid background color, a gradient background, or a custom background image (as shown here).</p>
-                <p class="measure lh-copy">Designed to handle zero, one or two call to action buttons.</p>
-                <p class="measure lh-copy">Subtitle is optional.</p>
-            </div>
-        </main>
         <aside class="logo-left-corner">
             <a class="" href="./index.html"><img class="" src="./assets/images/logo-transparent-smallest.png"/></a>
         </aside>
+        <header style="background-image: url(./assets/images/hot-air-balloon.jpeg); background-position: bottom center;" class="h-100 dt bg-cv">
+            <div class="dtc v-mid  bg-black-10 white-80 tl tc-ns phm">
+                <img class="push-up" src="./assets/images/logo-white-transparent-medium.png"/>
+                <h1 class="f3 f1-m mega-l ttu tracked-mega mbm mtn semibold">KYMA</h1>
+                <h2 class="f4 f3-ns book mbm mtn">International Business Development</h2>
+                <br/>
+                <a href="#about" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam hover-link">Learn More</a>
+                <!-- <a href="#" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam">Secondary Call to Action</a> -->
+            </div>
+        </header>
+        <main class="h-100">
+            <section id="about">
+                <div class="measure center pvl">
+                    <h1 class="f4 f2-ns semibold ttu tracked lh-title">Simple full screen panel header</h1>
+
+                    <p class="measure lh-copy">Vertically aligns content within the panel which is set to fill height and width of the window.</p>
+                    <p class="measure lh-copy">Can be used with a solid background color, a gradient background, or a custom background image (as shown here).</p>
+                    <p class="measure lh-copy">Designed to handle zero, one or two call to action buttons.</p>
+                    <p class="measure lh-copy">Subtitle is optional.</p>
+                </div>
+            </section>
+        </main>
+        <section class="h-100" id="contact">
+            <div class="measure center v-mid tl tc-ns phm">
+                <h1 class="f4 f2-ns semibold ttu tracked lh-title">Contact Us:</h1>
+                <form>
+                    <div class="row">
+                        <div class="six columns">
+                            <label for="exampleEmailInput">Your email:</label>
+                            <input class="u-full-width contact-input--ma1 contact-input--mb1" type="email" placeholder="test@mailbox.com" id="exampleEmailInput">
+                        </div>
+                        <div class="six columns">
+                            <label for="name">Name:</label>
+                            <input class="u-full-width contact-input--ma1 contact-input--mb1" type="text" placeholder="Name" id="nameInput">
+                        </div>
+                    </div>
+                    <label for="exampleMessage">Message:</label>
+                    <textarea class="u-full-width contact-input--ma1 contact-input--mb1" placeholder="Hi Dave …" id="exampleMessage"></textarea>
+                    <label class="example-send-yourself-copy contact-input--mb1">
+                        <input type="checkbox" id="send-yourself-a-copy">
+                        <span class="label-body">Send a copy to yourself</span>
+                    </label>
+                    <a id="contact-submit" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--black-40 black-80 link pam hover-link" type="button" >Submit</a>
+                </form>
+            </div>
+        </section>
+        <footer class="h-25" id="footer">
+            <div class="measure center pvl cf">
+                <p class="fl">
+                    &copy; 2016
+                </p>
+                <p class="fr">
+                    KYMA International
+                </p>
+            </div>
+        </footer>
         <!-- <script>
             (function(i, s, o, g, r, a, m) {
                 i['GoogleAnalyticsObject'] = r;
