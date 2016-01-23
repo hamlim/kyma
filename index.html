@@ -68,7 +68,7 @@
                     <i class="fa fa-linkedin"></i> <a class="link" href="https://linkedin.com/in/hamlinn">hamlinn</a>
                 </div>
                 <hr/>
-                <form class="v-mid" action="http://formspree.io/kyma.intl@outlook.com">
+                <form class="v-mid" action="http://formspree.io/kyma.intl@outlook.com" method="POST">
                     <div class="row">
                         <div class="six columns">
                             <label for="exampleEmailInput">Your email:</label>
@@ -80,12 +80,8 @@
                         </div>
                     </div>
                     <label for="exampleMessage">Message:</label>
-                    <textarea class="u-full-width contact-input--ma1 contact-input--mb1" placeholder="Hi Dave …" id="contactMessage"></textarea>
-                    <label class="example-send-yourself-copy contact-input--mb1">
-                        <input type="checkbox" id="send-yourself-a-copy">
-                        <span class="label-body">Send a copy to yourself</span>
-                    </label>
-                    <input type="hidden" name="_next" value="http://goexploring.today/kyma/thanks.html" />
+                    <textarea name="message" class="u-full-width contact-input--ma1 contact-input--mb1" placeholder="Hi Dave …" id="contactMessage"></textarea>
+                    <input type="hidden" name="_next" value="http://goexploring.today/kyma/thanks.html#contact" />
                     <input type="submit" id="contact-submit" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--black-40 black-80 link pam hover-link" value="Send" />
                 </form>
             </div>
