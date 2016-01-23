@@ -25,3 +25,7 @@
 .hover-link:hover {
     cursor: pointer;
 }
+
+.tal {
+    text-align: center;
+}
