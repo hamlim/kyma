@@ -1,5 +1,5 @@
 .one-vh {
-    min-width: 100vh;
+    min-height: 100vh;
 }
 .logo-left-corner {
     display: none;
@@ -50,4 +50,8 @@
     text-align: center !important;
 
     font: 32px Arial, sans-serif !important;
+}
+
+#contact {
+    padding-top: 100px;
 }
