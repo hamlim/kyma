@@ -37,13 +37,6 @@
     margin-bottom: 10em;
 }
 
-/*.encircled {
-    border: solid black 2px;
-    border-radius: 50%;
-    padding-left: 1.6rem;
-    padding-right: 1.8rem;
-    text-align: center;
-}*/
 .encircled {
     border-radius: 50%;
 
