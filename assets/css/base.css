@@ -37,10 +37,24 @@
     margin-bottom: 10em;
 }
 
-.encircled {
+/*.encircled {
     border: solid black 2px;
     border-radius: 50%;
     padding-left: 1.6rem;
     padding-right: 1.8rem;
     text-align: center;
+}*/
+.encircled {
+    border-radius: 50%;
+
+    width: 36px !important;
+    height: 36px !important;
+    padding: 8px !important;
+
+    background: #fff !important;
+    border: 2px solid #666 !important;
+    color: #666 !important;
+    text-align: center !important;
+
+    font: 32px Arial, sans-serif !important;
 }
