@@ -55,3 +55,16 @@
 #contact {
     padding-top: 100px;
 }
+.link--alt {
+    color: #F4D03F;
+    transition: color 5ms;
+}
+.link--alt:hover {
+    color: #F2784B;
+}
+.link--alt:active {
+    color: #F2784B;
+}
+.link--alt:focus {
+    color: #F2784B;
+}
