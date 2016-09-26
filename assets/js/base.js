@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	getlocation.onreadystatechange = function(){ 
 		console.log(getlocation.responseText);
 	}
-	getlocation.open('GET', 'https://geoip-db.com/json/');
+	getlocation.open('GET', 'https://geoip-db.com/json/geoip.php?jsonp=callback');
 	getlocation.send();
 
 	var package = {};
