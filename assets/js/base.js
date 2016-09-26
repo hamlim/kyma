@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	getlocation.send();
 
 	var package = {};
-	package.loc = location;
-	console.log(package);
+	package.message = JSON.stringify(location);
+	sendlocation = new XMLHttpRequest();
+	sendlocation.setRequestHeader('Accept', 'application/json');
+	sendlocation.open('POST', 'https://formspree.io/neil@kymainternational.com');
+	sendlocation.send(package);
 });
