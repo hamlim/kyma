@@ -12,5 +12,5 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	sendlocation = new XMLHttpRequest();
 	sendlocation.open('POST', 'https://formspree.io/neil@kymainternational.com');
 	sendlocation.setRequestHeader('Accept', 'application/json');
-	sendlocation.send(package);
+	sendlocation.send(JSON.stringify(package));
 });
