@@ -1,12 +1,13 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-	var location = {};
+	var location;
 	getlocation = new XMLHttpRequest();
 	getlocation.onreadystatechange = function(){ 
-		console.log(getlocation.responseText);
+		location = getlocation.responseText;
 	}
-	getlocation.open('GET', 'https://geoip-db.com/json/geoip.php?jsonp=callback');
+	getlocation.open('GET', '//freegeoip.net/json/');
 	getlocation.send();
 
 	var package = {};
-	package.location = JSON.stringify()
+	package.loc = location;
+	console.log(package);
 });
