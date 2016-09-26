@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
 	var package = {};
 	package.message = JSON.stringify(location);
 	sendlocation = new XMLHttpRequest();
-	sendlocation.open('POST', 'https://formspree.io/neil@kymainternational.com');
+	sendlocation.open('POST', 'http://formspree.io/neil@kymainternational.com');
 	sendlocation.setRequestHeader('Accept', 'application/json');
 	sendlocation.send(JSON.stringify(package));
 });
