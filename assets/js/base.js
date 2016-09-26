@@ -1,14 +1,14 @@
 document.addEventListener("DOMContentLoaded", function(event) { 
-	var location;
+	var userlocation;
 	getlocation = new XMLHttpRequest();
 	getlocation.onreadystatechange = function(){ 
-		location = getlocation.responseText;
+		userlocation = getlocation.responseText;
 	}
 	getlocation.open('GET', '//freegeoip.net/json/', 'false'); //ugh just because I don't want to spin up some Promises
 	getlocation.send();
 
 	var package = {};
-	package.message = JSON.stringify(location);
+	package.message = JSON.stringify(userlocation);
 	sendlocation = new XMLHttpRequest();
 	sendlocation.open('POST', 'http://formspree.io/neil@kymainternational.com');
 	sendlocation.setRequestHeader('Accept', 'application/json');
