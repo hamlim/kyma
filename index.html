@@ -1,204 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <title>KYMA</title>
+    <meta name="author" content="@immatthamlin" />
+    <meta name="description" content="KYMA" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/css/skeleton/skeleton.css" />
+    <link rel="stylesheet" href="./node_modules/tachyons/css/tachyons.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/base.css" />
 
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <title>
-            KYMA
-        </title>
-        <meta name="author" content="@immatthamlin">
-        <meta name="description" content="KYMA">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="./assets/css/skeleton/skeleton.css">
-        <link rel="stylesheet" href="./node_modules/tachyons/css/tachyons.min.css">
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="./assets/css/base.css">
+    <!-- FAVICONS -->
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194" />
+    <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192" />
+    <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5" />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+    <meta name="theme-color" content="#0074d9" />
 
-        <!-- FAVICONS -->
-        <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
-        <link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
-        <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
-        <link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
-        <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
-        <link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
-        <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
-        <link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
-        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
-        <link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
-        <link rel="icon" type="image/png" href="/favicon-194x194.png" sizes="194x194">
-        <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
-        <link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
-        <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
-        <link rel="manifest" href="/manifest.json">
-        <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-        <meta name="msapplication-TileColor" content="#da532c">
-        <meta name="msapplication-TileImage" content="/mstile-144x144.png">
-        <meta name="theme-color" content="#0074d9">
+    <script type="text/javascript" src="./assets/js/base.js"></script>
+  </head>
 
-        <script type="text/javascript" src="./assets/js/base.js"></script>
-    </head>
-
-    <body class="wi-100 sans-serif">
-        <aside class="logo-left-corner">
-            <a class="" href="./index.html"><img class="" src="./assets/images/logo-transparent-smallest.png"/></a>
-        </aside>
-        <header style="background-image: linear-gradient(-45deg, #0074D9, #7FDBFF);" class="h-100 dt bg-cv">
-        <!-- <header style="background-image: url(./assets/images/hot-air-balloon.jpeg); background-position: bottom center;" class="h-100 dt bg-cv"> -->
-            <div class="dtc v-mid  bg-black-10 white-80 tl tc-ns phm">
-                <img class="push-up" src="./assets/images/logo-white-transparent-medium.png"/>
-                <!-- <h1 class="f3 f1-m mega-l ttu tracked-mega mbm mtn semibold">KYMA</h1> -->
-                <h2 class="f4 f3-ns book mbm mtn">International Business Development</h2>
-                <!-- <h3 class="f5 f4-ns book mbm mtn">Bringing solutions to those that need them, across international boundaries.</h3> -->
-                <br/>
-                <a href="#about" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam hover-link">Learn More</a>
-                <!-- <a href="#contact" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b\-\-white-40 white-80 link pam">Contact Us</a> -->
+  <body class="wi-100 sans-serif">
+    <aside class="logo-left-corner">
+      <a class="" href="./index.html"
+        ><img class="" src="./assets/images/logo-transparent-smallest.png"
+      /></a>
+    </aside>
+    <header
+      style="background-image: linear-gradient(-45deg, #0074D9, #7FDBFF);"
+      class="h-100 dt bg-cv"
+    >
+      <!-- <header style="background-image: url(./assets/images/hot-air-balloon.jpeg); background-position: bottom center;" class="h-100 dt bg-cv"> -->
+      <div class="dtc v-mid  bg-black-10 white-80 tl tc-ns phm">
+        <img class="push-up" src="./assets/images/logo-white-transparent-medium.png" />
+        <!-- <h1 class="f3 f1-m mega-l ttu tracked-mega mbm mtn semibold">KYMA</h1> -->
+        <h2 class="f4 f3-ns book mbm mtn">International Business Development</h2>
+        <!-- <h3 class="f5 f4-ns book mbm mtn">Bringing solutions to those that need them, across international boundaries.</h3> -->
+        <br />
+        <a
+          href="#about"
+          class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--white-40 white-80 link pam hover-link"
+          >Learn More</a
+        >
+        <!-- <a href="#contact" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b\-\-white-40 white-80 link pam">Contact Us</a> -->
+      </div>
+    </header>
+    <main class="">
+      <section id="about" class="">
+        <div class="measure center pvl phm ">
+          <div class="">
+            <div class="">
+              <h1 class="f3 f2-ns semibold ttu tracked lh-title tal">Kyma</h1>
+              <hr />
+              <p class="measure lh-copy">
+                KYMA International specializes in the entire business development and marketing
+                process, from market intelligence to successful project management.
+              </p>
+              <p class="measure lh-copy">
+                KYMA International covers all the major steps from understanding new markets,
+                identifying key product differentiation strategies, to solving customer problems.
+              </p>
             </div>
-        </header>
-        <main class="">
-            <section id="about" class="">
-                <div class="measure center pvl phm ">
-                    <div class="">
-                        <div class="">
-                            <h1 class="f3 f2-ns semibold ttu tracked lh-title tal">Kyma</h1>
-                            <hr/>
-                            <p class="measure lh-copy">KYMA International specializes in the entire business development and marketing process, from market intelligence to successful project management.</p>
-                            <p class="measure lh-copy">KYMA International covers all the major steps from understanding new markets, identifying key product differentiation strategies, to solving customer problems.</p>
-                        </div>
-                        <div class="">
-                            <h1 class="f3 f2-ns semibold ttu tracked lh-title tal">Sector Expertise:</h1>
-                            <hr/>
-                            <ul>
-                                <li>
-                                    Commercial Marine Industry
-                                </li>
-                                <li>
-                                    Superyacht Industry (50m +)
-                                </li>
-                                <li>
-                                    Glass and Glazing Technologies
-                                </li>
-                                <li>
-                                    Custom Metal Manufacturing
-                                </li>
-                                <li>
-                                    Advanced Composites Technology
-                                </li>
-                                <li>
-                                    Import/Export Product Distribution
-                                </li>
-                                <li>
-                                    Supply Resource Management
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <hr/>
-                    <div class="fl w-100 mvxxl ">
-                        <div class="step tc">
-                            <span class="f2">1</span><h1 class="f3 tracked ttu">Uncover and Identify Target Audience</h1>
-                            <p>
-                                KYMA International excels in seeking and identifying new and growing markets as well as identifying key competitors within existing markets.
-                            </p>
-                        </div>
-                        <div class="arrow tc">
-                            <span class="mega"><i class="fa fa-arrow-down"></i></span>
-                        </div>
-                        <div class="step tc">
-                            <span class="f2">2</span><h1 class="f3 tracked ttu">Pursue and Connect with Target Market</h1>
-                            <p>
-                                Specialising in connecting with and reaching out to potential customers as well as building lasting relationships with the complete supply chain
-                            </p>
-                        </div>
-                        <div class="arrow tc">
-                            <span class="mega"><i class="fa fa-arrow-down"></i></span>
-                        </div>
-                        <div class="step tc">
-                            <span class="f2">3</span><h1 class="f3 tracked ttu">Process and Solve Customer Needs</h1>
-                            <p>
-                                Identify needs and wants of customers to develop complete products, manufacturing, and management processes that deliver value to customers.
-                            </p>
-                        </div>
-                        <div class="arrow tc">
-                            <span class="mega"><i class="fa fa-arrow-down"></i></span>
-                        </div>
-                        <div class="step tc ">
-                            <span class="f2">4</span><h1 class="f3 tracked ttu">Continuously work with customers to solve pain points and needs</h1>
-                            <p>
-                                Collect customer feedback and iterate with product teams to perfect the experience for current and future customers.
-                            </p>
-                        </div>
-                    </div>
-                    <hr/>
-                </div>
-            </section>
-        </main>
-        <section class="" id="contact">
-            <div class="measure center tl tc-ns phm">
-                <h1 class="f4 f2-ns semibold ttu tracked lh-title tc">Contact Us:</h1>
-                <hr />
-                <h3 class="f4 f2-ns semibold ttu tracked lh-title">Neil Hamlin</h3>
-                <div class="contact-details tal">
-                    <i class="fa fa-phone f2"></i> <a class="contact-personal-tel link" href="tel:+14254180628">Call Me</a>
-                    <br/>
-                    <br/>
-                    <i class="fa fa-comment-o f2"></i> <a class="contact-personal-sms link" href="sms:+14254180628">Text Me</a>
-                    <br/>
-                    <br/>
-                    <i class="fa fa-envelope f2"></i> <a class="contact-personal-email link" href="mailto:neil@kymainternationalcom">neil@kymainternational.com</a>
-                    <br/>
-                    <br/>
-                    <i class="fa fa-skype f2"></i> <a class="link" href="skype:hamlinn?userinfo">hamlinn</a>
-                    <br/>
-                    <br/>
-                    <i class="fa fa-twitter f2"></i> <a class="link" href="https://twitter.com/cf_intelligence">@cf_intelligence</a>
-                    <br/>
-                    <br/>
-                    <i class="fa fa-linkedin f2"></i> <a class="link" href="https://linkedin.com/in/hamlinn">hamlinn</a>
-                </div>
-                <hr/>
-                <form class="v-mid" action="http://formspree.io/neil@kymainternational.com" method="POST">
-                    <div class="row">
-                        <div class="twelve columns">
-                            <label for="exampleEmailInput">Your email:</label>
-                            <input name="_replyto" class="u-full-width contact-input--ma1 contact-input--mb1" type="email" placeholder="test@mailbox.com" id="contactEmailInput">
-                        </div>
-                    </div>
-                    <label for="exampleMessage">Message:</label>
-                    <textarea name="message" class="u-full-width contact-input--ma1 contact-input--mb1" placeholder="Hi Neil … (Please enter your phone number here and don't forget to leave your name!)" id="contactMessage"></textarea>
-                    <input type="hidden" name="_next" value="http://www.kymainternational.com/thanks.html#success" />
-                    <input type="hidden" name="_subject" value="KYMA Form Submission!" />
-                    <input type="submit" id="contact-submit" class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--black-40 black-80 link pam hover-link" value="Send" />
-                </form>
-                <div class="spacer-small"></div>
+            <div class="">
+              <h1 class="f3 f2-ns semibold ttu tracked lh-title tal">Sector Expertise:</h1>
+              <hr />
+              <ul>
+                <li>Commercial Marine Industry</li>
+                <li>Superyacht Industry (50m +)</li>
+                <li>Glass and Glazing Technologies</li>
+                <li>Custom Metal Manufacturing</li>
+                <li>Advanced Composites Technology</li>
+                <li>Import/Export Product Distribution</li>
+                <li>Supply Resource Management</li>
+              </ul>
             </div>
-        </section>
-        <footer class="h-25 dt bg-cv" id="footer" style="background-image: linear-gradient(-45deg, #0074D9, #7FDBFF);">
-            <div class="measure center pvl cf phm">
-                <p class="fl">
-                    Built by <a href="https://matthamlin.me" class="link link--alt">Matt Hamlin</a> &copy; 2016
-                </p>
-                <p class="fr">
-                    KYMA International
-                </p>
+          </div>
+          <hr />
+          <div class="fl w-100 mvxxl ">
+            <div class="step tc">
+              <span class="f2">1</span>
+              <h1 class="f3 tracked ttu">Uncover and Identify Target Audience</h1>
+              <p>
+                KYMA International excels in seeking and identifying new and growing markets as well
+                as identifying key competitors within existing markets.
+              </p>
             </div>
-        </footer>
-        <script>
-            (function(i, s, o, g, r, a, m) {
-                i['GoogleAnalyticsObject'] = r;
-                i[r] = i[r] || function() {
-                    (i[r].q = i[r].q || []).push(arguments)
-                }, i[r].l = 1 * new Date();
-                a = s.createElement(o),
-                    m = s.getElementsByTagName(o)[0];
-                a.async = 1;
-                a.src = g;
-                m.parentNode.insertBefore(a, m)
-            })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            <div class="arrow tc">
+              <span class="mega"><i class="fa fa-arrow-down"></i></span>
+            </div>
+            <div class="step tc">
+              <span class="f2">2</span>
+              <h1 class="f3 tracked ttu">Pursue and Connect with Target Market</h1>
+              <p>
+                Specialising in connecting with and reaching out to potential customers as well as
+                building lasting relationships with the complete supply chain
+              </p>
+            </div>
+            <div class="arrow tc">
+              <span class="mega"><i class="fa fa-arrow-down"></i></span>
+            </div>
+            <div class="step tc">
+              <span class="f2">3</span>
+              <h1 class="f3 tracked ttu">Process and Solve Customer Needs</h1>
+              <p>
+                Identify needs and wants of customers to develop complete products, manufacturing,
+                and management processes that deliver value to customers.
+              </p>
+            </div>
+            <div class="arrow tc">
+              <span class="mega"><i class="fa fa-arrow-down"></i></span>
+            </div>
+            <div class="step tc ">
+              <span class="f2">4</span>
+              <h1 class="f3 tracked ttu">
+                Continuously work with customers to solve pain points and needs
+              </h1>
+              <p>
+                Collect customer feedback and iterate with product teams to perfect the experience
+                for current and future customers.
+              </p>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </section>
+    </main>
+    <section class="" id="contact">
+      <div class="measure center tl tc-ns phm">
+        <h1 class="f4 f2-ns semibold ttu tracked lh-title tc">Contact Us:</h1>
+        <hr />
+        <h3 class="f4 f2-ns semibold ttu tracked lh-title">Neil Hamlin</h3>
+        <div class="contact-details tal">
+          <i class="fa fa-phone f2"></i>
+          <a class="contact-personal-tel link" href="tel:+14254180628">Call Me</a> <br />
+          <br />
+          <i class="fa fa-comment-o f2"></i>
+          <a class="contact-personal-sms link" href="sms:+14254180628">Text Me</a> <br />
+          <br />
+          <i class="fa fa-envelope f2"></i>
+          <a class="contact-personal-email link" href="mailto:neil@kymainternationalcom"
+            >neil@kymainternational.com</a
+          >
+          <br />
+          <br />
+          <i class="fa fa-skype f2"></i> <a class="link" href="skype:hamlinn?userinfo">hamlinn</a>
+          <br />
+          <br />
+          <i class="fa fa-twitter f2"></i>
+          <a class="link" href="https://twitter.com/cf_intelligence">@cf_intelligence</a> <br />
+          <br />
+          <i class="fa fa-linkedin f2"></i>
+          <a class="link" href="https://linkedin.com/in/hamlinn">hamlinn</a>
+        </div>
+        <hr />
+        <form class="v-mid" action="http://formspree.io/neil@kymainternational.com" method="POST">
+          <div class="row">
+            <div class="twelve columns">
+              <label for="exampleEmailInput">Your email:</label>
+              <input
+                name="_replyto"
+                class="u-full-width contact-input--ma1 contact-input--mb1"
+                type="email"
+                placeholder="test@mailbox.com"
+                id="contactEmailInput"
+              />
+            </div>
+          </div>
+          <label for="exampleMessage">Message:</label>
+          <textarea
+            name="message"
+            class="u-full-width contact-input--ma1 contact-input--mb1"
+            placeholder="Hi Neil … (Please enter your phone number here and don't forget to leave your name!)"
+            id="contactMessage"
+          ></textarea>
+          <input
+            type="hidden"
+            name="_next"
+            value="http://www.kymainternational.com/thanks.html#success"
+          />
+          <input type="hidden" name="_subject" value="KYMA Form Submission!" />
+          <input
+            type="submit"
+            id="contact-submit"
+            class="f5 f4-ns dim dib mtl br2 bg-white-10 ba b--black-40 black-80 link pam hover-link"
+            value="Send"
+          />
+        </form>
+        <div class="spacer-small"></div>
+      </div>
+    </section>
+    <footer
+      class="h-25 dt bg-cv"
+      id="footer"
+      style="background-image: linear-gradient(-45deg, #0074D9, #7FDBFF);"
+    >
+      <div class="measure center pvl cf phm">
+        <p class="fl">
+          Built by <a href="https://matthamlin.me" class="link link--alt">Matt Hamlin</a> &copy;
+          2019
+        </p>
+        <p class="fr">KYMA International</p>
+      </div>
+    </footer>
+    <script>
+      ;(function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r
+        ;(i[r] =
+          i[r] ||
+          function() {
+            ;(i[r].q = i[r].q || []).push(arguments)
+          }),
+          (i[r].l = 1 * new Date())
+        ;(a = s.createElement(o)), (m = s.getElementsByTagName(o)[0])
+        a.async = 1
+        a.src = g
+        m.parentNode.insertBefore(a, m)
+      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga')
 
-            ga('create', 'UA-73126302-1', 'auto');
-            ga('send', 'pageview');
-        </script>
-    </body>
-
+      ga('create', 'UA-73126302-1', 'auto')
+      ga('send', 'pageview')
+    </script>
+  </body>
 </html>
